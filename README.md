@@ -96,6 +96,25 @@ https://cdn.jsdelivr.net/gh/MXDexRazero/gkd_subscription@main/dist/gkd.json5
 
 ---
 
+## 定时执行：配合自动任务
+
+想让它在固定时间自动跑，用系统自带的「**自动任务**」（在安全中心里）定时启动
+**[app-settings-launcher](https://github.com/MXDexRazero/app-settings-launcher)**
+这个跳板 APK。它一打开就直达「应用设置」页面，之后由本订阅接管。
+
+![小米自动任务配置示例](https://raw.githubusercontent.com/MXDexRazero/app-settings-launcher/main/docs/autotask-screenshot.png)
+
+| 区域           | 设置                          |
+| -------------- | ----------------------------- |
+| 任务名称       | 自动卸载                      |
+| 如果（条件）   | 指定时间，例如 `05:30` / 每天 |
+| 就执行（结果） | 开启应用 → 选择 **应用设置**  |
+
+自动任务通常只能「启动某个应用」，无法直接拉起指定 Activity，
+这就是需要那个跳板 APK 的原因。
+
+---
+
 ## 小米 / 澎湃 OS 必做配置
 
 漏掉这些会出现「时灵时不灵」：
