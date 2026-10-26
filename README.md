@@ -20,10 +20,10 @@
 
 复制下面任一链接，然后在 GKD 中：**首页 → 订阅 → 右下角 `+` → 粘贴链接 → 确认**
 
-| 源 | 链接 |
-|---|---|
+| 源                       | 链接                                                                                 |
+| ------------------------ | ------------------------------------------------------------------------------------ |
 | GitHub（推荐，更新最快） | `https://raw.githubusercontent.com/MXDexRazero/gkd_subscription/main/dist/gkd.json5` |
-| jsDelivr CDN | `https://cdn.jsdelivr.net/gh/MXDexRazero/gkd_subscription@main/dist/gkd.json5` |
+| jsDelivr CDN             | `https://cdn.jsdelivr.net/gh/MXDexRazero/gkd_subscription@main/dist/gkd.json5`       |
 
 添加后在订阅页面下拉即可检测更新。
 

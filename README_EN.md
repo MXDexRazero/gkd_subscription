@@ -22,10 +22,10 @@ tap "Security service" → tap "Uninstall updates" → tap "OK" → exit Setting
 Copy one of the links below, then in GKD:
 **Home → Subscriptions → `+` (bottom right) → paste → Confirm**
 
-| Source | Link |
-|---|---|
+| Source                                | Link                                                                                 |
+| ------------------------------------- | ------------------------------------------------------------------------------------ |
 | GitHub (recommended, fastest updates) | `https://raw.githubusercontent.com/MXDexRazero/gkd_subscription/main/dist/gkd.json5` |
-| jsDelivr CDN | `https://cdn.jsdelivr.net/gh/MXDexRazero/gkd_subscription@main/dist/gkd.json5` |
+| jsDelivr CDN                          | `https://cdn.jsdelivr.net/gh/MXDexRazero/gkd_subscription@main/dist/gkd.json5`       |
 
 After adding, pull down on the subscription page to check for updates.
 
@@ -80,3 +80,4 @@ If installation fails due to network issues, use the Aliyun mirror:
 
 ```shell
 npm install --registry=https://registry.npmmirror.com
+```
